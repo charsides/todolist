@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    color: white;
+    text-align: center;
+    margin-bottom: 5;
+}
+
+.inputBar {
+    background-color: cadetblue;
+    padding: 50px 40px;
+    width: 100%;
+}
+
+input {
+    margin: 0;
+    border: none;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#addButton {
+    padding: 10px;
+    width: 20%;
+    background-color: #d9d9d9;
+    color: #555;
+    float: right;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+  }
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    cursor: pointer;
+    position: static;
+    padding: 15px;
+    background-color: rgb(171, 214, 216);
+    font-size: 18px;
+    transition: 0.2s;
+    height: 50px;
+}
+
+ul li:nth-child(odd) {
+    background-color: #eee;
+  }
+
+ul li:hover {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+#addButton:hover {
+    background-color: rgb(10, 93, 201);
+    color: white;
+}
+input[type=text]:focus{
+    outline-color:teal;
+}
+
+#removeButton {
+    float: right;
+    padding: 5px 8px;
+    background-color: teal;
+    border-radius: .25rem;
+    cursor: pointer;
+}
+
+#removeButton:hover {
+    background-color: crimson;
+    color: white;
+}
+
+.myButton {
+    float: right;
+    padding: 5px 8px;
+    background-color: teal;
+    border-radius: .25rem;
+    cursor: pointer;
+    margin-right: 5px;
+    font-size: 11px;
+    border: 1px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+    border-image: initial;
+}
+
+.myButton:hover {
+    background-color: crimson;
+    color: white;
+}
+
+.footer {
+    height: 50px;
+    width: 100%;
+    background-color: cadetblue;
+    text-align: center;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
