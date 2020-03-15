@@ -2,14 +2,20 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
+    background-color:rgb(153, 196, 140);
 }
 
-h1 {
+.wrapper {
+    text-align: center;
+    width: 100%;
+}
+
+h1, h2 {
     color: white;
     text-align: center;
 }
 
-p {
+h4 {
     color: white;
     text-align: center;
     margin-bottom: 5;
@@ -22,13 +28,57 @@ p {
 }
 
 input {
-    margin: 0;
     border: none;
     width: 75%;
-    padding: 10px;
-    float: left;
     font-size: 16px;
     border-radius: 5px;
+    padding: 10px;
+}
+
+#input {
+    margin: 0;
+    float: left;
+}
+
+h2 {
+    margin: 0;
+    padding-top: 200px;
+    font-weight: 300;
+}
+
+#fname {
+    margin: 20px;
+    width: 50%;
+}
+
+#theme,
+#changeName {
+    padding: 10px;
+    width: auto;
+    background-color: #fff;
+    color: #555;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+#submitName {
+    padding: 10px;
+    width: 100px;
+    background-color: #fff;
+    color: #555;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+#submitName:hover {
+    background-color: rgb(81, 197, 119);
+    color: white;
 }
 
 #addButton {
@@ -42,7 +92,7 @@ input {
     cursor: pointer;
     transition: 0.3s;
     border-radius: 5px;
-  }
+}
 
 * {
     box-sizing: border-box;
@@ -62,6 +112,7 @@ ul li {
     font-size: 18px;
     transition: 0.2s;
     height: 50px;
+    width: 100%
 }
 
 ul li:nth-child(odd) {
@@ -124,4 +175,5 @@ input[type=text]:focus{
     left: 0;
     bottom: 0;
 }
+
 
