@@ -42,6 +42,7 @@ function insertName (name) {
         heading.innerHTML = "My To-Do List";
     } else {
         heading.innerHTML = name.charAt(0).toUpperCase() + name.slice(1) + "'s To-Do List";
+        document.title = name.charAt(0).toUpperCase() + name.slice(1) + "'s To-Do List";
     }
 }
 
