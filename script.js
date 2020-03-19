@@ -51,6 +51,7 @@ function insertName (name) {
 function attachRemoveButtons(li) {
     let remove = document.createElement('button');
     remove.id = "removeButton";
+    remove.className = "myButton";
     remove.innerHTML = "remove";
     li.appendChild(remove);
 }

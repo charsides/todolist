@@ -48,7 +48,7 @@ h2 {
 
 #fname {
     margin: 20px;
-    width: 50%;
+    width: 60%;
 }
 
 #theme,
@@ -130,19 +130,6 @@ ul li:hover {
 }
 input[type=text]:focus{
     outline-color:teal;
-}
-
-#removeButton {
-    float: right;
-    padding: 5px 8px;
-    background-color: #29AB87;
-    border-radius: .25rem;
-    cursor: pointer;
-}
-
-#removeButton:hover {
-    background-color: crimson;
-    color: white;
 }
 
 .myButton {
