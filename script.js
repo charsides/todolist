@@ -27,6 +27,7 @@ function getUsername() {
 }
 
 submit.addEventListener('click', getUsername);
+
 username.addEventListener("keyup", function(event) {
     if (event.keyCode === 13) {
       event.preventDefault();
